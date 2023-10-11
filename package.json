@@ -1,0 +1,23 @@
+{
+  "name": "festivalmusica",
+  "version": "1.0.0",
+  "description": "Proyecto con GULP, SASS y HTML",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Omar0511/Festival-Musica.git"
+  },
+  "keywords": [
+    "SASS",
+    "Gulp"
+  ],
+  "author": "Omar Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Omar0511/Festival-Musica/issues"
+  },
+  "homepage": "https://github.com/Omar0511/Festival-Musica#readme"
+}

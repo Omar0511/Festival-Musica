@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/Omar0511/Festival-Musica#readme",
   "devDependencies": {
+    "gulp": "^4.0.2",
     "sass": "^1.69.2"
   }
 }

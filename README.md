@@ -31,6 +31,10 @@
 - En consola ingresamos: npm run sass (corremos el script) y podemos ver que ya no se detiene sass
 - Cualquier cambio ya lo mantedrá actualizado ya que el --watch para eso funciona
 
+- INSTALAR GULP
+- En consola: npm i -D gulp
+- Una vez instalado, creamos un archivo: gulpfile.js
+
 
 ### Sitio
 

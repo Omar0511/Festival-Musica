@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Omar0511/Festival-Musica/issues"
   },
-  "homepage": "https://github.com/Omar0511/Festival-Musica#readme"
+  "homepage": "https://github.com/Omar0511/Festival-Musica#readme",
+  "devDependencies": {
+    "sass": "^1.69.2"
+  }
 }

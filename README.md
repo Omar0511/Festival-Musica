@@ -50,6 +50,9 @@
 - CREAR ARCHIVOS SASS
 - Al crear archivos SASS, debemos poner guión bajo, sino creará 2 hojas de estilos
 
+- @FORWARD solo va en el archivo index
+- @USE va en los demas archivos para mandarlos a llamar
+
 ### Sitio
 
 - URL : ( **https://fest-of-music.netlify.app/ **)

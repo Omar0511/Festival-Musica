@@ -1,7 +1,15 @@
-// Forma antigua
-@import 'base/variables';
-@import 'contenido/contenido';
+/* 
+    Forma antigua
+    @import 'base/variables';
+    @import 'contenido/contenido';
+*/
 
-body {
-    background-color: $color;
-}
+//Forma nueva
+@use 'base';
+
+/*
+    Forma antigua
+    @import 'contenido/contenido';
+*/
+
+@use 'contenido';

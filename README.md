@@ -38,6 +38,8 @@
 - LLAMAR TAREAS CON GULP NPX
 - En consola ponemos: npx gulp primerTarea
 
+- LLAMAR TAREAS CON GULP NPM
+- En consola ponemos: npm run primerTarea (esto porque asi se llama en el gulpfile.js)
 
 ### Sitio
 

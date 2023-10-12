@@ -53,6 +53,9 @@
 - @FORWARD solo va en el archivo index
 - @USE va en los demas archivos para mandarlos a llamar
 
+- PLUMBER: evitar que cuando tengamos un ERROR, GULP se detenga
+- Instalamos como dependencia de desarrollo en consola: npm i --save-dev gulp-plumber
+
 ### Sitio
 
 - URL : ( **https://fest-of-music.netlify.app/ **)

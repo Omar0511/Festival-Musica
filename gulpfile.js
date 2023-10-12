@@ -22,8 +22,8 @@ const sass = require("gulp-sass")(require('sass'));
 function css(done)
 {
     src("src/scss/app.scss") // Identificar el archivo SASS
-        .pibe(sass()) // Compilarlo
-        .pibe(dest("build/css")); // Almacenarla en disco duro
+        .pipe(sass()) // Compilarlo
+        .pipe(dest("build/css")); // Almacenarla en disco duro
 
     done(); // Callback: avisa a GULP cuando llegamos al final
 }

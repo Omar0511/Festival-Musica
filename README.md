@@ -45,6 +45,10 @@
 - En consola ingresamos npm i --save-dev gulp-sass
 - Después corremos npx gulp css
 - Una vez que creamos el watch en consola ingresamos: npm run dev oh npx gulp dev
+- Posteriormente podemos llamarla con: gulp dev
+
+- CREAR ARCHIVOS SASS
+- Al crear archivos SASS, debemos poner guión bajo, sino creará 2 hojas de estilos
 
 ### Sitio
 

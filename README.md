@@ -56,6 +56,10 @@
 - PLUMBER: evitar que cuando tengamos un ERROR, GULP se detenga
 - Instalamos como dependencia de desarrollo en consola: npm i --save-dev gulp-plumber
 
+- CREAR SNIPET: Control + Shift + P
+- User snippets
+- scss.json
+
 ### Sitio
 
 - URL : ( **https://fest-of-music.netlify.app/ **)

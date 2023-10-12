@@ -1,0 +1,26 @@
+@use 'variables' as v;
+
+@mixin telefono {
+    @media (min-width: 480px) {
+        // Content sirve para cuando usemos el mixin, el contenido definido lo reemplace
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (min-width: v.$tablet) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: v.$desktop) {
+        @content;
+    }
+}
+
+@mixin xl {
+    @media (min-width: v.$xl) {
+        @content;
+    }
+}

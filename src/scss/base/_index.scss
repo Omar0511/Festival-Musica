@@ -1,4 +1,5 @@
 // Mandamos a llamar el archivo de _variables.scss
 @forward 'variables';
+@forward 'mixins';
 @forward 'normalize';
 @forward 'globales';

@@ -35,6 +35,9 @@
 - En consola: npm i -D gulp
 - Una vez instalado, creamos un archivo: gulpfile.js
 
+- LLAMAR TAREAS CON GULP NPX
+- En consola ponemos: npx gulp primerTarea
+
 
 ### Sitio
 

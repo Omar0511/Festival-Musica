@@ -16,7 +16,7 @@
     src = sirve para identificar un archivo o varios
     dest = almacena algo en una carpeta de estilo
 */
-const { src, dest } = require("gulp");
+const { src, dest, watch } = require("gulp");
 const sass = require("gulp-sass")(require('sass'));
 
 function css(done)
@@ -28,5 +28,13 @@ function css(done)
     done(); // Callback: avisa a GULP cuando llegamos al final
 }
 
+function dev(done)
+{
+    watch("src/scss/app.scss", css)
+
+    done();
+}
+
 // Llamar función CSS
 exports.css = css;
+exports.dev = dev;

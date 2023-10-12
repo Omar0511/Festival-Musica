@@ -44,6 +44,7 @@
 - INSTALAR SASS COMO DEPENDENCIA DE DESARROLLO
 - En consola ingresamos npm i --save-dev gulp-sass
 - Después corremos npx gulp css
+- Una vez que creamos el watch en consola ingresamos: npm run dev oh npx gulp dev
 
 ### Sitio
 

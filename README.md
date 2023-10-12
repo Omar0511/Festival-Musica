@@ -41,6 +41,10 @@
 - LLAMAR TAREAS CON GULP NPM
 - En consola ponemos: npm run primerTarea (esto porque asi se llama en el gulpfile.js)
 
+- INSTALAR SASS COMO DEPENDENCIA DE DESARROLLO
+- En consola ingresamos npm i --save-dev gulp-sass
+- Después corremos npx gulp css
+
 ### Sitio
 
 - URL : ( **https://fest-of-music.netlify.app/ **)

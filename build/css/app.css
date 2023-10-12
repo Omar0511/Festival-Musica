@@ -1,7 +1,13 @@
+/* 
+    Forma antigua
+    @import 'base/variables';
+    @import 'contenido/contenido';
+*/
+/*
+    Forma antigua
+    @import 'contenido/contenido';
+*/
 h1 {
-  color: black;
-}
-
-body {
-  background-color: black;
+  color: white;
+  text-transform: uppercase;
 }

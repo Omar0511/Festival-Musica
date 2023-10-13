@@ -4,6 +4,7 @@
 .video {
     position: relative;
     max-height: 70rem;
+    min-height: 50rem;
     overflow: hidden;
 
     .overlay {
@@ -18,8 +19,12 @@
     }
 
     video {
+        width: auto;
         display: block;
-        width: 100%;
+
+        @include m.desktop {
+            width: 100%;
+        }
     }
 }
 

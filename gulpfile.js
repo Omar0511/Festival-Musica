@@ -23,6 +23,8 @@ const sass = require('gulp-sass')(require('sass'));
 const plumber = require('gulp-plumber');
 
 // Imagenes
+const cache = require('');
+const imagemin = require('gulp-imagemin');
 const webp = require('gulp-webp');
 
 function css(done)
@@ -33,6 +35,14 @@ function css(done)
         .pipe(dest("build/css")); // Almacenarla en disco duro
 
     done(); // Callback: avisa a GULP cuando llegamos al final
+}
+
+function imagenes (done)
+{
+    src('src/img/**/*.{png,jpg}')
+        .pipe()
+
+    done();
 }
 
 function versionWebp( done )

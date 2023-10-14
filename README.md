@@ -63,6 +63,11 @@
 - Movemos la carpeta de IMG que esta en RAIZ hacia SRC
 - instalamos la dependencia de desarrollo en consola: npm install --save-dev gulp-webp
 
+- Aligerar Imagenes con GULP
+- En consola: npm i --save-dev gulp-imagemin@7.1.0.
+- El @ es para indicar una versión en específico.
+- Tenemos que instalar también: npm i --save-dev gulp-cache
+
 ### URL
 
 - sitio: **( https://fest-of-music.netlify.app/ )**

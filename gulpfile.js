@@ -23,7 +23,7 @@ const sass = require('gulp-sass')(require('sass'));
 const plumber = require('gulp-plumber');
 
 // Imagenes
-const cache = require('');
+const cache = require('gulp-cache');
 const imagemin = require('gulp-imagemin');
 const webp = require('gulp-webp');
 
@@ -39,8 +39,13 @@ function css(done)
 
 function imagenes (done)
 {
+    const opciones = {
+        optimizationLevel: 3
+    };
+
     src('src/img/**/*.{png,jpg}')
-        .pipe()
+        .pipe( cache( imagemin(opciones) ) )
+        .pipe( dest('build/img') );
 
     done();
 }
@@ -55,7 +60,7 @@ function versionWebp( done )
     // Si tuvieramos más formatos, los ingresamos dentro de las llaves.., no debe haber espacios en {png,jpg}
     src('src/img/**/*.{png,jpg}')
         .pipe( webp(opciones) )
-        .pipe( dest('build/img') )
+        .pipe( dest('build/img') );
 
     done();
 }
@@ -69,9 +74,10 @@ function dev(done)
 
 // Llamar función CSS
 exports.css = css;
+exports.imagenes = imagenes;
 exports.versionWebp = versionWebp;
 /*
     series: ejecuta una tarea tras otra
     paralell: ejecuta las tareas al mismo tiempo
 */
-exports.dev = parallel( versionWebp, dev );
+exports.dev = parallel( imagenes, versionWebp, dev );

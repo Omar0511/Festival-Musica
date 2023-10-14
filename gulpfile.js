@@ -42,8 +42,8 @@ function versionWebp( done )
         quality: 50
     };
 
-    // Si tuvieramos más formatos, los ingresamos dentro de las llaves..
-    src('src/img/**/*.{png, jpg}')
+    // Si tuvieramos más formatos, los ingresamos dentro de las llaves.., no debe haber espacios en {png,jpg}
+    src('src/img/**/*.{png,jpg}')
         .pipe( webp(opciones) )
         .pipe( dest('build/img') )
 

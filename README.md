@@ -60,7 +60,9 @@
 - User snippets
 - scss.json
 
-### Sitio
+- Movemos la carpeta de IMG que esta en RAIZ hacia SRC
+- instalamos la dependencia de desarrollo en consola: npm install --save-dev gulp-webp
 
-- URL : ( **https://fest-of-music.netlify.app/ **)
--
+### URL
+
+- sitio: **( https://fest-of-music.netlify.app/ )**

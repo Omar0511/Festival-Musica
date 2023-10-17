@@ -68,6 +68,9 @@
 - El @ es para indicar una versión en específico.
 - Tenemos que instalar también: npm i --save-dev gulp-cache
 
+- Formato AVIF
+- En consola: npm install --save-dev gulp-avif
+
 ### URL
 
 - sitio: **( https://fest-of-music.netlify.app/ )**

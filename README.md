@@ -71,6 +71,10 @@
 - Formato AVIF
 - En consola: npm install --save-dev gulp-avif
 
+- Crear SNIPPETS para imagenes
+- Control + Shift + P
+- Buscamos HTML y nos abrirá html.json
+
 ### URL
 
 - sitio: **( https://fest-of-music.netlify.app/ )**

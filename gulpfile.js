@@ -26,7 +26,7 @@ const plumber = require('gulp-plumber');
 const cache = require('gulp-cache');
 const imagemin = require('gulp-imagemin');
 const webp = require('gulp-webp');
-const avif = requiere('gulp-avif');
+const avif = require('gulp-avif');
 
 function css(done)
 {

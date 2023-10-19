@@ -81,15 +81,25 @@ function versionAvif( done )
     done();
 }
 
+function javascript( done ) 
+{
+    src('src/js/**/*.js')
+        .pipe( dest('build/js') );
+
+    done();
+}
+
 function dev(done)
 {
-    watch('src/scss/**/*.scss', css)
+    watch('src/scss/**/*.scss', css);
+    watch('src/js/**/*.js', javascript);
 
     done();
 }
 
 // Llamar función CSS
 exports.css = css;
+exports.js = javascript;
 exports.imagenes = imagenes;
 exports.versionWebp = versionWebp;
 exports.versionAvif = versionAvif;
@@ -97,4 +107,4 @@ exports.versionAvif = versionAvif;
     series: ejecuta una tarea tras otra
     paralell: ejecuta las tareas al mismo tiempo
 */
-exports.dev = parallel( imagenes, versionWebp, versionAvif, dev );
+exports.dev = parallel( imagenes, versionWebp, versionAvif, javascript, dev );

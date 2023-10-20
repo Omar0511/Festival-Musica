@@ -656,6 +656,7 @@ img {
 .boletos h3 {
   text-align: center;
   color: #FFF;
+  margin-bottom: 2rem;
 }
 .boletos .contenedor-boletos {
   display: grid;
@@ -706,4 +707,14 @@ img {
 .pase-footer p {
   font-size: 2.4rem;
   font-weight: 700;
+}
+
+.site-footer {
+  background-color: #F53756;
+  padding: 1rem;
+}
+.site-footer p {
+  margin: 0;
+  text-align: center;
+  color: #FFF;
 }

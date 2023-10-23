@@ -76,7 +76,7 @@
 - Buscamos HTML y nos abrirá html.json
 
 - Instalaciones de dependencias
-- npm i --save-dev cssnano autoprefixer postcss gulp-postcss
+- npm i --save-dev gulp-cssnano gulp-autoprefixer gulp-postcss
 
 ### URL
 

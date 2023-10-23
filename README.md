@@ -75,6 +75,9 @@
 - Control + Shift + P
 - Buscamos HTML y nos abrirá html.json
 
+- Instalaciones de dependencias
+- npm i --save-dev cssnano autoprefixer postcss gulp-postcss
+
 ### URL
 
 - sitio: **( https://fest-of-music.netlify.app/ )**

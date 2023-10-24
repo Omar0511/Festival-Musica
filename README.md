@@ -86,6 +86,12 @@
 - Instalación de Depdendencia.
 - npm i gulp-terser-js
 
+- Carpetas
+- Podemos eliminar package.lock
+- Node_modules
+- gulpfile
+- Estas carpetas no se suben
+
 ### URL
 
 - sitio: **( https://fest-of-music.netlify.app/ )**

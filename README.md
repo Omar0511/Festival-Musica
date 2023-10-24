@@ -75,8 +75,12 @@
 - Control + Shift + P
 - Buscamos HTML y nos abrirá html.json
 
-- Instalaciones de dependencias
-- npm i --save-dev gulp-cssnano gulp-autoprefixer gulp-postcss
+- Instalaciones de dependencias, minificar CSS
+- npm i --save-dev cssnano autoprefixer gulp-postcss
+- Validamos en package.json que esten las dependencias y vamos a ingresar gulp-css
+
+- SourceMaps
+- npm i --save-dev gulp-sourcemaps
 
 ### URL
 

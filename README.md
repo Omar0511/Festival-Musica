@@ -91,6 +91,7 @@
 - Node_modules
 - gulpfile
 - Estas carpetas no se suben
+- Ejemplo: solo se suben carpetas de BUILD, INDEX, VIDEO
 
 ### URL
 

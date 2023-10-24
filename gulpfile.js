@@ -24,6 +24,7 @@ const plumber = require('gulp-plumber');
 const autoprefixer = require('autoprefixer');
 const cssnano = require('cssnano');
 const postcss = require('gulp-postcss');
+const terser = require('gulp-terser-js');
 
 // Imagenes
 const cache = require('gulp-cache');
@@ -39,8 +40,8 @@ function css(done)
         .pipe(plumber())
         .pipe(sass()) // Compilarlo
         .pipe( postcss( [autoprefixer(), cssnano()] ) )
-        .pipe(sourcemaps.write('.')
-        .pipe(dest("build/css")); // Almacenarla en disco duro
+        .pipe(sourcemaps.write('.'))
+        .pipe( dest('build/css') ); // Almacenarla en disco duro
 
     done(); // Callback: avisa a GULP cuando llegamos al final
 }
@@ -91,6 +92,9 @@ function versionAvif( done )
 function javascript( done ) 
 {
     src('src/js/**/*.js')
+        .pipe( sourcemaps.init() )
+        .pipe( terser() )   
+        .pipe( sourcemaps.write('.') )
         .pipe( dest('build/js') );
 
     done();

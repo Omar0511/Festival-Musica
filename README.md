@@ -79,8 +79,12 @@
 - npm i --save-dev cssnano autoprefixer gulp-postcss
 - Validamos en package.json que esten las dependencias y vamos a ingresar gulp-css
 
+- Sirve para una vez que monifica, ayuda a poder leer las hojas de estilo
 - SourceMaps
 - npm i --save-dev gulp-sourcemaps
+
+- Instalación de Depdendencia.
+- npm i gulp-terser-js
 
 ### URL
 

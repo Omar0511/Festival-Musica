@@ -79,24 +79,24 @@
 
 ## LLAMAR TAREAS CON GULP NPX
 1. En consola ponemos: 
-    - `_**npx gulp primerTarea**_`
+    - `**_npx gulp primerTarea_**`
 
 ## LLAMAR TAREAS CON GULP NPM
 
 1. En consola ponemos: 
-    - `_**npm run primerTarea**_` 
+    - `**_npm run primerTarea_**` 
     - (esto porque asi se llama en el gulpfile.js)
 
 ## INSTALAR SASS COMO DEPENDENCIA DE DESARROLLO
 
 1. En consola: 
- - `_**ingresamos npm i --save-dev gulp-sass**_`
+ - `**_ingresamos npm i --save-dev gulp-sass_**`
 1. Después corremos:
- - `_**npx gulp css**_`
+ - `**_npx gulp css_**`
 1- Una vez que creamos el watch en consola ingresamos: 
- - `_**npm run dev oh npx gulp dev**_`
+ - `**_npm run dev oh npx gulp dev_**`
 1. Posteriormente podemos llamarla con: 
- - `_**gulp dev**_`
+ - `**_gulp dev_**`
 
 ## CREAR ARCHIVOS SASS
 
@@ -114,7 +114,7 @@
 
 ## IMAGENES
 1. Movemos la carpeta de IMG que esta en RAIZ hacia SRC
-1. instalamos la dependencia de desarrollo en consola: **npm install --save-dev gulp-webp**
+1. instalamos la dependencia de desarrollo en consola: **_npm install --save-dev gulp-webp_**
 
     - ### Aligerar Imagenes con GULP
         1. En consola: **npm i --save-dev gulp-imagemin@7.1.0.**
@@ -146,6 +146,6 @@
 1. Estas carpetas no se suben
 1. Ejemplo: solo se suben carpetas de _**BUILD, INDEX, VIDEO**_
 
-### URL
+### SITIO
 
-- Sitio: **( https://fest-of-music.netlify.app/ )**
+- **[FestOfMusic]( https://fest-of-music.netlify.app/ )**

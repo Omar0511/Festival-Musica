@@ -67,62 +67,64 @@
         - `("sass": "sass --watch src/scss:build/css")`
 1. _**--watch**_ sirve para que se actualicen los cambios del _css_ que están en el **app.scss**
 1. En consola ingresamos: 
-    - _**npm run sass**_ 
+    - **npm run sass**
         - (corremos el script) y podemos ver que ya no se detiene **sass**
 1. Cualquier cambio ya lo mantedrá actualizado ya que el _**--watch**_ para eso funciona.
 
 ## INSTALAR GULP
 
 1. En consola: 
-    - `**npm i -D gulp**`
+    - **npm i -D gulp**
 1. Una vez instalado, creamos un archivo: _**gulpfile.js**_
 
 ## LLAMAR TAREAS CON GULP NPX
 1. En consola ponemos: 
-    - `**_npx gulp primerTarea_**`
+    - **npx gulp primerTarea**
 
 ## LLAMAR TAREAS CON GULP NPM
 
 1. En consola ponemos: 
-    - `**_npm run primerTarea_**` 
-    - (esto porque asi se llama en el gulpfile.js)
+    - **npm run primerTarea** 
+    - (esto porque asi se llama en el _**gulpfile.js**_)
 
 ## INSTALAR SASS COMO DEPENDENCIA DE DESARROLLO
 
 1. En consola: 
- - `**_ingresamos npm i --save-dev gulp-sass_**`
+ - **ingresamos npm i --save-dev gulp-sass**
 1. Después corremos:
- - `**_npx gulp css_**`
+ - **npx gulp css**
 1- Una vez que creamos el watch en consola ingresamos: 
- - `**_npm run dev oh npx gulp dev_**`
+ - **npm run dev oh npx gulp dev**
 1. Posteriormente podemos llamarla con: 
- - `**_gulp dev_**`
+ - **gulp dev**
 
 ## CREAR ARCHIVOS SASS
 
 1. Al crear archivos SASS, debemos poner _guión bajo_, sino creará 2 hojas de estilos
- ```
     - **@FORWARD**: solo va en el archivo index
     - **@USE**:va en los demas archivos para mandarlos a llamar
     - **PLUMBER**: evitar que cuando tengamos un ERROR, GULP se detenga
     - Instalamos como dependencia de desarrollo en consola: **npm i --save-dev gulp-plumber**
- ```
 ## CREAR SNIPET: 
 1. **Control + Shift + P**
 1. User snippets
-1. scss.json
+1. _scss.json_
 
 ## IMAGENES
 1. Movemos la carpeta de IMG que esta en RAIZ hacia SRC
-1. instalamos la dependencia de desarrollo en consola: **_npm install --save-dev gulp-webp_**
+1. instalamos la dependencia de desarrollo en consola: 
+ - **npm install --save-dev gulp-webp**
 
     - ### Aligerar Imagenes con GULP
-        1. En consola: **npm i --save-dev gulp-imagemin@7.1.0.**
+        1. En consola: 
+         - **npm i --save-dev gulp-imagemin@7.1.0.**
         1. El @ es para indicar una versión en específico.
-        1. Tenemos que instalar también: npm i --save-dev gulp-cache
+        1. Tenemos que instalar también: 
+         - **npm i --save-dev gulp-cache**
 
         - ### Formato AVIF
-            1. En consola: **npm install --save-dev gulp-avif**
+            1. En consola: 
+             - **npm install --save-dev gulp-avif**
         - ### Crear SNIPPETS para imagenes
             - **Control + Shift + P**
             - Buscamos HTML y nos abrirá html.json
@@ -132,19 +134,20 @@
 1. Validamos en **package.json** que esten las dependencias y vamos a ingresar _gulp-css_
 1. Sirve para una vez que monifica, ayuda a poder leer las hojas de estilo
 
-    ### Dependencias utilizadas
+### Dependencias utilizadas
 1. **SourceMaps**
     - **npm i --save-dev gulp-sourcemaps**
 
 1. **Instalación de Depdendencia.**
-    - npm i gulp-terser-js
+    - **npm i gulp-terser-js**
 
 ### Carpetas
 1. Podemos eliminar **package.lock**
     - **Node_modules**
     - **gulpfile**
 1. Estas carpetas no se suben
-1. Ejemplo: solo se suben carpetas de _**BUILD, INDEX, VIDEO**_
+1. Ejemplo: solo se suben carpetas de 
+ - _**BUILD, INDEX, VIDEO**_
 
 ### SITIO
 
